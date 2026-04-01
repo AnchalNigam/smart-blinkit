@@ -7,7 +7,7 @@ load_dotenv()
 
 class Settings:
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-    QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333"),
+    QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")      
     QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
     COLLECTION_NAME = "products"
     
