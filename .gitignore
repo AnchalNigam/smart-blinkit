@@ -1,0 +1,10 @@
+.DS_Store
+venv/
+.venv/
+__pycache__/
+*.pyc
+qdrant_storage/
+.ds_store
+.DS_Store
+.env
+blinkit_smartsearch.jpg
