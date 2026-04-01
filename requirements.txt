@@ -1,0 +1,19 @@
+# Core Agent & LLM
+langchain>=0.3.0
+langchain-google-genai>=2.0.0
+langgraph>=0.2.0
+langchain-community>=0.3.0
+
+# Database & Embeddings
+qdrant-client>=1.11.0
+fastembed>=0.3.4
+
+# API & Backend
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-dotenv>=1.0.1
+
+# Data Handling
+pandas>=2.2.0
+load_dotenv
+langsmith
